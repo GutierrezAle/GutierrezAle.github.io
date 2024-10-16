@@ -1,4 +1,4 @@
-/* media querries */
+
 #contatoComImagem{
     gap: 20px;
     background-size: cover;
@@ -6,6 +6,8 @@
     display: flex;
     width: 100%;
     text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 html{
@@ -34,11 +36,39 @@ align-items: center;
     background-size: cover;
     position: absolute;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.2;
     height: 100%;
     width: 100%;
 }
 
 #apresentacao{
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    
+    #contato {
+        font-size: 8px;
+    }
+    #background{
+        width: 100%;
+        background-size: cover;
+    }
+    
+    #apresentacao {
+        font-size: 8px;
+    }
+    
+    #contatoComImagem {
+        gap: 0px;
+        text-align: left;
+        background-size: contain;
+        background-position: center;
+        height: auto;
+    }
+
+    #foto{
+        height: 240px;
+    }
+
 }
