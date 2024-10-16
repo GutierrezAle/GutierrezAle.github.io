@@ -1,5 +1,4 @@
-
-#contatoComImagem{
+#contactAndImage {
     gap: 20px;
     background-size: cover;
     background-image: url(imagensCurriculo/68874cd2-3392-47de-a548-4e73d823c367.jpg);
@@ -8,6 +7,7 @@
     text-align: right;
     background-position: center;
     background-repeat: no-repeat;
+    
     
 }
 html{
@@ -20,12 +20,12 @@ body{
     height: 100%;
     background-color: black;
     }
-#contato{
+#contact{
     flex-grow: 1;
     padding: 20px;
     
 }
-#contato, #apresentacao{
+#contact, #presentation{
 font-family: Arial, Helvetica, sans-serif;
 color: white;
 align-items: center;
@@ -34,41 +34,42 @@ align-items: center;
 #background{
     background-image: url(imagensCurriculo/v627-aew-49-technologybackground.jpg);
     background-size: cover;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 0.2;
     height: 100%;
     width: 100%;
 }
 
-#apresentacao{
+#presentation{
     text-align: center;
 }
 
 @media (max-width: 480px) {
     
-    #contato {
-        font-size: 8px;
+    #contact {
+        font-size: 12px;
+        padding: 10%;
     }
     #background{
         width: 100%;
         background-size: cover;
     }
     
-    #apresentacao {
-        font-size: 8px;
+    #presentation {
+        font-size: 12px;
     }
     
-    #contatoComImagem {
+    #contactAndImage {
         gap: 0px;
         text-align: left;
-        background-size: contain;
         background-position: center;
-        height: auto;
+        flex-direction: column;
     }
 
-    #foto{
-        height: 240px;
+    #photo{
+        height: auto;
+        width: 100%;
     }
 
 }
