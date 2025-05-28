@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dc88b96.css",
+    "main.css": "/static/css/main.4fc39bcf.css",
     "main.js": "/static/js/main.480e733c.js",
     "static/js/453.a26f9cce.chunk.js": "/static/js/453.a26f9cce.chunk.js",
     "static/media/v627-aew-49-technologybackground.jpg": "/static/media/v627-aew-49-technologybackground.1575a2beda7ad45957fc.jpg",
     "static/media/68874cd2-3392-47de-a548-4e73d823c367.jpg": "/static/media/68874cd2-3392-47de-a548-4e73d823c367.2a0cd229895a36183405.jpg",
     "index.html": "/index.html",
-    "main.4dc88b96.css.map": "/static/css/main.4dc88b96.css.map",
+    "main.4fc39bcf.css.map": "/static/css/main.4fc39bcf.css.map",
     "main.480e733c.js.map": "/static/js/main.480e733c.js.map",
     "453.a26f9cce.chunk.js.map": "/static/js/453.a26f9cce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dc88b96.css",
+    "static/css/main.4fc39bcf.css",
     "static/js/main.480e733c.js"
   ]
 }
